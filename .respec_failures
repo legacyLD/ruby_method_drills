@@ -1,0 +1,76 @@
+#say_hello returns 'hello'
+#echo echoes (returns) the input string
+#get_fruit returns the fruit that corresponds to the given id
+#get_fruit does not raise an error when the id argument is missing
+#get_fruit defaults to 'apple' when no id argument is supplied
+#how_many_args accepts any number of arguments without error
+#how_many_args returns the total number of arguments passed to the function
+#find_answer returns the value associated with the 'answer' keyword argument
+#find_answer returns nil if it cannot find the 'answer' keyword argument
+#first_char returns the first letter of the given word
+#first_char lowercases the first letter of the given word
+#polly_wanna includes the given word in its return value
+#polly_wanna repeats the original word 3 times
+#count_chars returns the number of characters in the given string
+#yell convert the given message to uppercase
+#yell adds an exclamation point to the end of the given message
+#to_telegram replaces periods in the input string with ' STOP'
+#spell_out returns the input string, with characters seperated by dashes
+#spell_out converts the input string to lowercase
+#seperate seperates characters in the input string with a custom seperator, when supplied with one
+#seperate seperates characters in the input string with dashes (by default)
+#croon seperates characters in each word of the input phrase with dashes
+#croon preserves whitespace between words
+#palindrome_word? determines whether a single given word is a palindrome
+#palindrome_word? ignores case
+#palindrome_sentence? determines whether a given sentence is a palindrome
+#palindrome_sentence? ignores case
+#palindrome_sentence? ignores whitespace
+#palindrome_sentence? ignores punctuation
+#is_vowel determines whether a given character is a vowel
+#is_vowel ignores case
+#is_vowel returns false for non-letter inputs
+#add_period adds a period to the end of the given sentence
+#add_period does not add a period if one is already there
+#add_period does not add a period if any form of terminal punctuation is present
+#count_spaces counts the spaces in a given string
+#string_lengths converts a given list of strings to a list of string lengths
+#remove_falsy_values filters out falsy values from the input array
+#exclude_last removes the last item from an input array
+#exclude_last removes the last item from an input string
+#exclude_first removes the first item from an input array
+#exclude_first removes the first character from an input string
+#exclude_first does not alter the original input (non-destructive)
+#exclude_ends removes the first and last items from an input array
+#exclude_ends removes the first and last characters from an input string
+#select_every_even returns an array of even-indexed items from the input array
+#select_every_odd returns an array of odd-indexed items from the input array
+#select_every_n returns an array of items at an index evenly divisible by n, from the input array
+#select_every_n defaults to an n value of 1
+#count_to returns an array containing every integer from 0 to the input n
+#count_to counts down for negative numbers
+#count_to rounds off decimals
+#is_integer? returns true for Fixnums and Bignums (whole number or 'integer' types)
+#is_integer? returns true for Floats (decimals) equal to integers
+#is_integer? returns false for non-integer decimals
+#is_integer? returns false for Float::NAN
+#is_integer? returns false for non-numbers
+#is_prime? returns false for non-integer decimals
+#is_prime? returns false for numbers less than or equal to 1
+#is_prime? returns false for numbers divisible by anything but 1 and themselves
+#is_prime? returns true for prime numbers
+#primes_less_than returns an empty array if there are no primes below num
+#primes_less_than does not return the number itself
+#primes_less_than finds all primes less than the given number
+#iterative_factorial returns 1 for 0 and 1
+#iterative_factorial returns NaN for numbers less than 0
+#iterative_factorial returns NaN for non-integers
+#iterative_factorial calculates the factorial of the input number
+#character_count returns a hash
+#character_count counts how many times each character appears in the input string
+#character_count ignores case
+#word_count returns a hash
+#word_count counts how many times a word appears in a string
+#word_count ignores case
+#word_count ignores characters that are not in the sequence a-z
+#most_frequent_word returns the word in the input string that appears with the most frequency

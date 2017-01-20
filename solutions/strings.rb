@@ -23,8 +23,9 @@ def to_telegram(message)
   message.gsub(/\./, " STOP")
 end
 
-def spell_out(word)
-  word.downcase.split("").join("-")
+def spell_out (str)
+  spelled = str.downcase.split("").join('-')
+  p spelled
 end
 
 def seperate(word, seperator="-")
